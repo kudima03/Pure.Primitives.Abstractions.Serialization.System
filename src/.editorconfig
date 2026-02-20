@@ -63,6 +63,7 @@ indent_style = tab
 # Default Severity for all .NET Code Style rules below
 dotnet_analyzer_diagnostic.severity = warning
 dotnet_diagnostic.CA1716.severity = none
+dotnet_diagnostic.IDE0065.severity = none
 dotnet_diagnostic.CA1859.severity = none
 dotnet_diagnostic.CA1305.severity = none
 dotnet_diagnostic.CA1720.severity = none
