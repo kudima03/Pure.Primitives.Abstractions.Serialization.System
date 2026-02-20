@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -7,5 +7,13 @@
     <IsAotCompatible>true</IsAotCompatible>
     <EnablePackageValidation>true</EnablePackageValidation>
     <!--<PackageValidationBaselineVersion>0.1.0-preview.1.0.0</PackageValidationBaselineVersion>-->
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Primitives.Abstractions.Serialization.System</PackageId>
+    <RootNamespace>Pure.Primitives.Abstractions.Serialization.System</RootNamespace>
+    <AssemblyName>Pure.Primitives.Abstractions.Serialization.System</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions.Serialization.System</PackageProjectUrl>
   </PropertyGroup>
 </Project>
